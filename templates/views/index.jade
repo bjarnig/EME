@@ -1,0 +1,136 @@
+extends ../layouts/default
+
+block content
+    .navbar.navbar-default.navbar-fixed-top
+    .container
+      .navbar-header
+        a.navbar-brand(href='#')
+          | Electroacoustic
+          | Music Education
+        button.navbar-toggle(type='button', data-toggle='collapse', data-target='#navbar-main')
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+      #navbar-main.navbar-collapse.collapse
+        ul.nav.navbar-nav.navbar-right
+          li
+            a(href='#', target='_blank') About
+          li
+            a(href='#', target='_blank') Contact
+  .container
+    #banner.page-header
+      .row
+        .col-lg-10.col-md-7.col-sm-6
+          h1 Electroacoustic Music Education
+          p.lead Institutions and Programs
+      .row
+        img.img-rounded.center-block(src='eme/img/banner1.jpg', width='800')
+    .bs-docs-section
+      .row
+        .col-lg-12
+          .page-header
+            h2#typography Institutions
+    .bs-component
+      .row
+        .col-lg-12
+          .panel.panel-default
+            .panel-body
+              h4
+                a(href='bangor')  Bangor University
+    .bs-component
+      .row
+        .col-lg-12
+          .panel.panel-default
+            .panel-body
+              h4
+                a(href='berlin')  Berlin University of the Arts (UdK Berlin)
+    .bs-component
+      .row
+        .col-lg-12
+          .panel.panel-default
+            .panel-body
+              h4
+                | Centre de recherche en informatique et création musicale (CICM)/ department of Music, University of Paris 8.
+    .bs-component
+      .row
+        .col-lg-12
+          .panel.panel-default
+            .panel-body
+              h4
+                | Centre for Music and Technology, Sibelius Academy, University of the Arts Helsinki (Finland)
+    .bs-component
+      .row
+        .col-lg-12
+          .panel.panel-default
+            .panel-body
+              h4 Hochschule der Künste Bern
+    .bs-component
+      .row
+        .col-lg-12
+          .panel.panel-default
+            .panel-body
+              h4
+                | Institute for Composition and Electroacoustics / University for Music and Performing Arts Vienna (MDW)
+    .bs-component
+      .row
+        .col-lg-12
+          .panel.panel-default
+            .panel-body
+              h4
+                | Institute for Composition and Electroacoustics / University for Music and Performing Arts Vienna (MDW)
+    .bs-component
+      .row
+        .col-lg-12
+          .panel.panel-default
+            .panel-body
+              h4
+                | Institute for Computer Music and Electronic Media (ICEM) / Folkwang University of the Arts, Essen, Germany
+    .bs-component
+      .row
+        .col-lg-12
+          .panel.panel-default
+            .panel-body
+              h4
+                | Institute of Electronic Music and Acoustics (IEM) / University of Music and Performing Arts Graz (KUG)
+    .bs-component
+      .row
+        .col-lg-12
+          .panel.panel-default
+            .panel-body
+              h4 Institute of Sonology / Royal Conservatoire, The Hague
+    .bs-component
+      .row
+        .col-lg-12
+          .panel.panel-default
+            .panel-body
+              h4 The Norwegian Academy of Music
+    .bs-component
+      .row
+        .col-lg-12
+          .panel.panel-default
+            .panel-body
+              h4 The Royal College of Music in Stockholm (KMH)
+    .bs-component
+      .row
+        .col-lg-12
+          .panel.panel-default
+            .panel-body
+              h4 School of the Art Institute of Chicago
+    #source-modal.modal.fade
+      .modal-dialog.modal-lg
+        .modal-content
+          .modal-header
+            button.close(type='button', data-dismiss='modal', aria-hidden='true') ×
+            h4.modal-title Institution Information
+          .modal-body
+            pre.
+    footer
+      .row
+        .col-lg-12
+          ul.list-unstyled
+            li.pull-right
+              a(href='#top') Back to top
+          p
+            | 2015 
+            a(href='http://asdf.co/', rel='nofollow') Kees Tazelaar
+            | .
